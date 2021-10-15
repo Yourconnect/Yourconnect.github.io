@@ -1,14 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naziyah.Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css"> 
-</head>
-<body>
-   <h1>Naziyah's Portfolio</h1> 
-   <p>This would be plain text</p>
-</body>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naziyah's Portfolio</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="logo"><a href="index.html">Naziyah Folmar</a></div>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#AboutMe">About Me</a></li>                      
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <h1>Junior Software Developer</h1>
+                <p>
+                    I aim to make a difference through my creative solutions.
+                </p>
+                <a href="#GetInTouch" class="hero-btn">Get In Touch</a>
+            </div>
+        </section>
+        <!--About Me-->
+        <div id="AboutMe">
+            <h2>About Me</h2>
+            <table>
+                <th>Education</th>
+                <th>Experience</th>
+                <th>Date Of Birth</th>
+            </table>
+            <table>
+                <td>Software Development</td>
+                <td>About 1 Year</td>
+                <td>Nov, 1997- 23 years old</td>
+            </table>
+            <table>
+                <th>Stack/Technologies</th>
+            </table>
+            <table>
+                <td>C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) 
+                    • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs 
+                    • Responsive Design / Mobile • Relational Databases / MS SQL • Source Control / GitHub …. Visual Studio</td>
+            </table>
+        </section>
+
+        <!---Projects-->
+        <section id="Projects">
+            <h2>Projects</h2>
+                <div id="projects">
+                    <article>
+                        <h4>Virtual Pets</h4>
+                        <img src="./img/Screenshot.png" class="center">
+                        <p>Console Application using C#</p>
+                    </article>               
+                </div>
+         </section>
+         </section>
+         <!--Footer-->
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer-1">
+                    <h4>Email <br> ziyahfolmar</h4>
+                    <h4>Phone <br> (330) 809-7475</h4>
+                    <a href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin">LinkedIn</a>
+                    <a href="https://github.com/Yourconnect">Github</a>
+                    &copy; 2021 Naziyah Folmar
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
