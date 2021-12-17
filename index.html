@@ -4,6 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Naziyah's Portfolio</title>
         <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5fab036cbc.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -12,8 +16,8 @@
                 <div class="logo"><a href="index.html">Naziyah Folmar</a></div>
                 <div class="nav-links" id="navLinks">
                     <ul>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#AboutMe">About Me</a></li>                      
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#footer">About Me</a></li>                      
                     </ul>
                 </div>
             </nav>
@@ -22,55 +26,104 @@
                 <p>
                     I aim to make a difference through my creative solutions.
                 </p>
-                <a href="#GetInTouch" class="hero-btn">Get In Touch</a>
+                <a href="#form-container" class="hero-btn">Get In Touch</a>
             </div>
         </section>
-        <!--About Me-->
-        <div id="AboutMe">
-            <h2>About Me</h2>
-            <table>
-                <th>Education</th>
-                <th>Experience</th>
-                <th>Date Of Birth</th>
-            </table>
-            <table>
-                <td>Software Development</td>
-                <td>About 1 Year</td>
-                <td>Nov, 1997- 23 years old</td>
-            </table>
-            <table>
-                <th>Stack/Technologies</th>
-            </table>
-            <table>
-                <td>C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) 
-                    • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs 
-                    • Responsive Design / Mobile • Relational Databases / MS SQL • Source Control / GitHub …. Visual Studio</td>
-            </table>
-        </section>
 
-        <!---Projects-->
-        <section id="Projects">
-            <h2>Projects</h2>
-                <div id="projects">
-                    <article>
-                        <h4>Virtual Pets</h4>
-                        <img src="./img/Screenshot.png" class="center">
-                        <p>Console Application using C#</p>
-                    </article>               
+         <div class="grid-container" id="projects">
+            <div class="grid-item grid-item-1">
+                <div class="description">
+                    <h1 id="reviewH1">Review's Site</h1>
+                    <p id="reviewDescription">Opinions. You know the saying...everyone has one. And the Internet has made them easier to consume, or ignore. 
+                        Acquisitions, Inc. has many, many products from its years of, well, acquiring things. 
+                        They have asked you to build a reviews site for some of their current products. 
+                        The data gathered will help them gain insight into their customer base and the products they have come to enjoy...or enjoy less.
+                    </p>
+                    <a href="https://github.com/2021-Fall-Cohort/m3-reviews-site-runtime-terror/blob/e70541ee494f78cd20afaaeb1eafae7912458aae/README.md" target="_blank" class="learnMore" id="reviewBtn">Learn More</a>
                 </div>
-         </section>
-         </section>
-         <!--Footer-->
-        <div class="footer-container">
-            <div class="footer">
-                <div class="footer-heading footer-1">
-                    <h4>Email <br> ziyahfolmar</h4>
-                    <h4>Phone <br> (330) 809-7475</h4>
-                    <a href="https://www.linkedin.com/in/naziyah-folmar/">LinkedIn</a>
-                    <a href="https://github.com/Yourconnect">Github</a>
-                    &copy; 2021 Naziyah Folmar
+                <div class="mockup" id="reviewMockup">
+                    <img src="img/New Macbook Pro Mockupreview.png" alt="Laptop with Review's Site mockup">
+                </div>
+            </div>
+
+            <div class="grid-item grid-item-2">
+                <div class="mockup" id="dinnerMockup">
+                    <img src="img/Macbook Pro Flying Mockupdinner.png" alt="Laptop with what's for dinner Site mockup">
+                </div>
+                <div class="description">
+                    <h1>What's For Dinner Site</h1>
+                    <p></p>
+                    <a href="https://github.com/2021-Fall-Cohort/final-projects-comic-chefs.git" target="_blank" class="learnMore">Learn More</a>
+                </div>
+            </div>
+
+            <div class="grid-item grid-item-3">
+                <div class="description">
+                    <h1>Album Collection Site</h1>
+                    <p></p>
+                    <a href="https://github.com/2021-Fall-Cohort/m5-album-collection-surviving-with-google/blob/75ec38df5dce26f7780a522d6cfccaa447b95cdd/README.md" target="_blank" class="learnMore">Learn More</a>
+                </div>
+                    <div class="mockup">
+                        <img src="" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+
+         <!--Footer-->
+        <div class="footer-dark" id="footer">
+            <footer>
+                <h2 class="allAboutMe">All About Me</h2>
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Phone</h3>
+                            <ul>
+                                <li><a href="#">(330) 809-7475</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Education</h3>
+                            <ul>
+                                <li><a href="#">Software Development</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Experience</h3>
+                            <ul>
+                                <li><a href="#">About 1 Year</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3>Stack/Technologies</h3>
+                            <p> C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) 
+                                • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs 
+                                • Responsive Design / Mobile • Relational Databases / MS SQL • Source Control / GitHub …. Visual Studio</p>
+                        </div>
+                        <div class="form-container" id="form-container">
+                            <h1 id="h1Form">Get In Touch</h1>
+                                <form target="_blank" action="https://formsubmit.co/ziyahfolmar@gmail.com" method="POST">
+                                    <div class="form-group">
+                                        <div class="form-row">
+                                            <div class="col-form">
+                                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                            </div>
+                                            <div class="col-form">
+                                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea placeholder="Your Message" class="form-control" id="message" name="message" rows="10" required></textarea>
+                                        <button type="submit" class="formBtn">Submit</button>
+                                    </div>
+                                </form>
+                        </div>
+                        <div class="col item social"><a href="https://www.linkedin.com/in/naziyah-folmar/"><i class="fab fa-linkedin"></i></a><a href="https://github.com/Yourconnect"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <p class="copyright">&copy; 2021 Naziyah Folmar</p>
+                </div>
+            </footer>
+        <script src="index.js"></script>
     </body>
 </html>
