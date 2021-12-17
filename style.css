@@ -162,6 +162,10 @@ nav .fa {
   padding-left: 180px;
 }
 
+#reviewH13 {
+  padding-left: 180px;
+}
+
 a #learnMore2 {
   padding-left: 500px;
   font-size: 5px;
@@ -185,6 +189,19 @@ a #learnMore2 {
   /* width: auto; */
   padding-top: 15px;
   padding-right: 100px;
+  margin-bottom: 40px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: .5px;
+  font-family: sans-serif;
+}
+
+#reviewDescription3 {
+  font-size: 20px;
+  width: 650px;
+  /* width: auto; */
+  padding-top: 15px;
+  padding-left: 30px;
   margin-bottom: 40px;
   text-indent: 50px;
   text-align: justify;
