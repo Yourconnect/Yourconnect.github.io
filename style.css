@@ -235,12 +235,19 @@ a.learnMore {
   color: #FFFFFF;
   background-color: black;
   text-align: center;
-  transition: all 0.2s;
-} 
+}
 
 a.learnMore:hover {
-  color: #000000;
-  background-color: #ffffff;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+#learnMore2 {
+  margin: 270px;
+}
+
+#learnMore3 {
+  margin-left: 270px;
 }
 
 #reviewBtn {
