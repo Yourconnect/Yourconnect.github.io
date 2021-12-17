@@ -158,12 +158,34 @@ nav .fa {
   margin-left: 260px;
 }
 
+#reviewH12 {
+  padding-left: 180px;
+}
+
+a #learnMore2 {
+  padding-left: 500px;
+  font-size: 5px;
+}
+
 #reviewDescription {
   font-size: 20px;
   width: 650px;
   /* width: auto; */
   padding-top: 15px;
   padding-left: 30px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: .5px;
+  font-family: sans-serif;
+}
+
+#reviewDescription2 {
+  font-size: 20px;
+  width: 650px;
+  /* width: auto; */
+  padding-top: 15px;
+  padding-right: 100px;
+  margin-bottom: 40px;
   text-indent: 50px;
   text-align: justify;
   letter-spacing: .5px;
@@ -321,7 +343,7 @@ img {
 
 .form-container {
   margin-top: 10px;
-  margin-left: 230px;
+  margin-left: 160px;
   margin-bottom: 20px;
   width: 1000px;
   cursor: pointer;
